@@ -1,0 +1,8 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=4.1.0'
+    
+  ## LED Strip library (Forced to latest version to resolve memory allocation issue)
+  espressif/led_strip: "*"
